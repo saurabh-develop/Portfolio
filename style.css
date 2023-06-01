@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #1a1625;
+    height: 422vh;
+    color: white;
+}
+
+/* Navigation tab */
+.nav-tab{
+    position: sticky;
+    display: flex;
+    top: 0;
+    background-color: #2f2b3a;
+    padding: 4px;
+    border-width: 100%;
+    height: 2.7em;
+    align-items: center;
+    font-family: 'Varela Round', serif;
+    font-size: 20px;
+    z-index: 2;
+}
+.logo{
+    float: left;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.nav-tab ul{
+    position: absolute;
+    word-spacing: 4vw;
+    right: 2em;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    text-shadow: 2px 2px 5px #76737e;
+}
+
+/* Home Page */
+.home-body{
+    position: absolute;
+    width: 98%;
+    height: 95%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.home-content{
+    position: absolute;
+    top: 9.5em;
+    left: 7em;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-line{
+    position: absolute;
+    top: 9.5em;
+    left: 6.5em; 
+    border: solid white;
+    border-left: 2px;
+    height: 18em;
+}
+.home-photo{
+    position: absolute;
+    top: 7em;
+    right: 9.8em;
+    border: 1px solid #76737e;
+    width: 25em;
+    height: 27em;
+}
+
+/* Social Media icons */
+.icons{
+    position: sticky;
+    display: inline;
+    top: 16em;
+    justify-content: center;
+    z-index: 3;
+}
+.icon-img{
+    border-radius: 50px;
+    margin: 2.5px;
+    padding: 1px;
+    height: 2.5em;
+}
+.icon-img:hover{
+    box-shadow: 1.9px 1.9px 13px 6px #76737e;
+}
+
+
+/* About Page */
+.about-body{
+    position: absolute;
+    top: 100%;
+    left: 7.8%;
+    width: 90%;
+    height: 122%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.about-photo{
+    position: absolute;
+    top: 7em;
+    float: left;
+    border: 1px solid #76737e;
+    width: 25em;
+    height: 27em;
+}
+.about-content{
+    position: absolute;
+    top: 9em;
+    right: 5.5em;
+    width: 25em;
+    height: 27em;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.about-line{
+    position: absolute;
+    top: 8.5em;
+    right: 40em;
+    border: solid white;
+    border-right: 2px;
+    height: 22em;
+}
+
+.about-content h1{
+    text-decoration: underline;
+    
+}
+.about-content button{
+    background-color: #9673fa;
+    border: none;
+    border-radius: 7px;
+    color: #1a1625;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.skills{
+    position: absolute;
+    top: 36em;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #46424f;
+    width: 90%;
+    height: 23%;
+    padding: 20px;
+}
+.see-project{
+    float: left;
+}
+.skill-list{
+    position: absolute;
+    float: left;
+    right: 30%;
+}
+
+.skills h2{
+    text-decoration: underline;
+}
+.see-project button{
+    background-color: #9673fa;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+.see-project button a{
+    color: #1a1625;
+}
+
+/* Work Page */
+.work-body{
+    position: absolute;
+    top: 234%;
+    margin-top: 5%;
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.head{
+    /* margin-left: 40%; */
+    text-align: center;
+    margin-bottom: 4.5%;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+
+.project-image{
+    position: absolute;
+    left: 8%;
+    border: 1px solid #76737e;
+    border-radius: 15px;
+    width: 21.3%;
+    height: 30%;
+}
+.project-image:hover{
+    opacity:0.7;
+    width: 23%;
+    height: 32%;
+    transition: 0.2s ease;
+}
+.img-2{
+    left: 39.3%;
+}
+.img-3{
+    left: 70.6%;
+}
+.img-4{
+    top: 55%;
+    left: 8%;
+}
+.img-5{
+    top: 55%;
+    left: 39.3%;
+}
+.img-6{
+    top: 55%;
+    left: 70.6%;
+}
+
+/* Contact Page */
+.contact-body{
+    background-color: #1a1625;
+    position: absolute;
+    top: 340%;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact-me-head{
+    margin: 30%;
+}
+input{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 1px solid #76737e;
+    background-color: #2f2b3a;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+input:focus{
+    border-color: #1a1625;
+}
+textarea{
+    width: 80%;
+    height: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #76737e;
+    border-radius: 8px;
+    margin-top: 3%;
+    resize: none;
+    background-color: #2f2b3a;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+textarea:focus{
+    border-color: #1a1625;
+}
+
+.contact-form button{
+    background-color: #9673fa;
+    border: none;
+    border-radius: 7px;
+    color: #1a1625;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contact-form button a{
+    color: #1a1625;
+}
+button:hover{
+    box-shadow: 1.9px 1.9px 10px 5px #76737e;
+}
+
+/* Scroll Effect */
+.reveal{
+    opacity: 0;
+    transition: all 3s ease;
+}
+.reveal.active{
+    opacity: 1;
+}
+
+/* typying animation */
+.dynamic-list{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+}
+.dynamic-list li{
+    list-style: none;
+    animation: slide 4.5s steps(3) infinite;
+    position: relative;
+    top: 0;
+}
+@keyframes slide{
+    100%{
+        top: -78px;
+    }
+}
+
+.dynamic-list li span{
+    position: relative;
+}
+.dynamic-list li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1a1625;
+    border-left: 2px solid #fff;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
